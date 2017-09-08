@@ -14,7 +14,7 @@ response.release_conn()
 print('Done, start unpacking')
 mavenzip = zipfile.ZipFile('apache-maven-3.5.0-bin.zip')
 mavenzip.extractall()
-print('Done:')
+print('Done: here is the file')
 file_dir = os.path.join('.', '*.zip')
 for file_name in glob.glob(file_dir):
     if file_name.endswith('.zip'):
