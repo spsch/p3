@@ -30,7 +30,8 @@ public class Test extends TestCase {
 
     public void testOpenPage() throws Exception {
         this.drive.get("http://ngx42.mybluemix.net/app/orders");
-        assertEquals("Home Page - Order Product", this.drive.getTitle());
+        /**assertEquals("Home Page - Order Product", this.drive.getTitle());**/
+        assertEquals("Peklo", this.drive.getTitle());
     }
 
     @After
